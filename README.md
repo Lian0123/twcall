@@ -97,6 +97,8 @@ Linux核心版本：x86_64 Linux 4.15.0-30-generic
 
 zhcon版本：0.2.6
 
+實體終端機語言設定：都是zh_TW.UTF-8
+
 ### 總結：
 我還是去用fbtrem吧......（崩潰）
 
