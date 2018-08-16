@@ -1,0 +1,35 @@
+#!/bin/bash
+Path=$(dirname $0)
+
+echo -e "\033[1;32m"
+echo -e "                                                                    "
+echo -e "  ################################################################  "
+echo -e "  #            << 這是個給該產品的每個使用者的話 >>              #  "
+echo -e "  #                           一一一一                           #  "
+echo -e "  #          天 下 程 式      |- ㄩ -|    都 會 有 BUG           #  "
+echo -e "  #                  wv__   ㄒ|  免  |ㄒ   __vw                  #  "
+echo -e "  #                       | | |  責  | | |                       #  "
+echo -e "  #                        |  |  聲  |  |                        #  "
+echo -e "  #                           |  明  |                           #  "
+echo -e "  #                           一一一一                           #  "
+echo -e "  ################################################################  "
+echo -e "  #  檔名：twcall                                                #  "
+echo -e "  #  用途：在zhcon輸入UTF8繁體中文的特殊腳本                     #  "
+echo -e "  #  The Program from : Lian0123                                 #  "
+echo -e "  #  The Version : 0.0.1                                         #  "
+echo -e "  ################################################################  "
+echo -e "                                                                    "
+echo -e "\033[0m"
+
+printf "你同意要使用此腳本安裝程式嗎？現在^C中斷還來得及(任意鍵繼續)"
+read select
+
+cd $Path
+mkdir ~/twcall
+touch ~/twcall/.twcall.tmp
+chmod +wx ~/twcall/.twcall.tmp
+sudo apt install zhcon 
+cp ./twcall.sh ~/twcall
+cp ./zhcon.conf ~/.zhconrc
+echo "alias zhcon='zhcon --utf8'" >> ~/.bashrc
+echo "alias twcall='~/twcall/twcall.sh'" >> ~/.bashrc
