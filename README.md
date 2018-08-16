@@ -35,6 +35,7 @@ twcall的主程式
 
 #### 變更檔案：
 * ~/.bashrc：
+
 新增alias zhcon='zhcon --utf8'規則
 
 新增alias twcall='~/twcall/twcall.sh'規則
