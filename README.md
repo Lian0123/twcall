@@ -86,6 +86,14 @@ exec bash
 #按下Y/y後，執行此指令
 
 ```
+
+#### 開發測試環境：
+Linux發行版：Linux mint 18.3(基於：Ubuntu 16.04)
+
+Linux核心版本：x86_64 Linux 4.15.0-30-generic
+
+zhcon版本：0.2.6
+
 ### 總結：
 我還是去用fbtrem吧......（崩潰）
 
