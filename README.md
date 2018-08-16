@@ -29,7 +29,7 @@ twcall的主程式
 * ~/.zhconrc：
 改過後以Big5編碼為基準且設定成注音輸入法的設定檔
 
-建議將此檔案中的此檔案中的此檔案中的 x_resolution = 800 與 y_resolution = 640 手動改成您螢幕的解析度
+建議將此檔案中的~/.zhconrc中的此檔案中的 x_resolution = 800 與 y_resolution = 640 手動改成您螢幕的解析度
 
 
 ##### 變更檔案：
@@ -85,9 +85,12 @@ exec bash
 
 ```
 
-####參考資料：
+#### 參考資料：
 [Bash取得所有args](https://stackoverflow.com/questions/4824590/propagate-all-arguments-in-a-bash-shell-script)
+
 [清空檔案相關](https://blog.longwin.com.tw/2013/03/bash-shell-set-file-null-2013)
+
 [iconv轉換相關](https://blog.csdn.net/a280606790/article/details/8504133)
+
 [cd指令調動相關](https://askubuntu.com/questions/84279/how-to-change-directory-using-script)
 
