@@ -54,6 +54,9 @@ zhcon
 #### 4.[ctrl]+[space]
 切換中文輸入與英文輸入
 
+#### 5.文字的選擇頁換頁[+]
+使用加號"+"換頁
+
 ### 使用twcall：
 ```
 twcall <commands>
