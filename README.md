@@ -1,4 +1,5 @@
 # twcall
+
 #### 簡介：
 一個可以在zhcon上輸入繁體中文的輔助腳本，雖然還是礙於zhcon的受限，部份zhcon輸入法內不含的字依然是無法輸入。
 
@@ -84,6 +85,10 @@ exec bash
 #按下Y/y後，執行此指令
 
 ```
+#### 總結：
+我還是去用fbtrem吧......（崩潰）
+
+本腳本應該不會再進行更新，主要還是以追根究底的精神，解決無法在zhcon繁體中文輸入的問題
 
 #### 參考資料：
 [Bash取得所有args](https://stackoverflow.com/questions/4824590/propagate-all-arguments-in-a-bash-shell-script)
@@ -93,4 +98,5 @@ exec bash
 [iconv轉換相關](https://blog.csdn.net/a280606790/article/details/8504133)
 
 [cd指令調動相關](https://askubuntu.com/questions/84279/how-to-change-directory-using-script)
+
 
