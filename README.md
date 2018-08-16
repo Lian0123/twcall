@@ -30,7 +30,7 @@ twcall的主程式
 * ~/.zhconrc：
 改過後以Big5編碼為基準且設定成注音輸入法的設定檔
 
-建議將此檔案中的~/.zhconrc中的此檔案中的 x_resolution = 800 與 y_resolution = 640 手動改成您螢幕的解析度
+建議將~/.zhconrc檔案中的 x_resolution = 800 與 y_resolution = 640 手動改成您螢幕的解析度
 
 
 #### 變更檔案：
